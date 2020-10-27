@@ -1,4 +1,4 @@
-package main.java;
+
 public class Task1 {
     public static int min(int a, int b, int c) {
         if (a < b && a < c) {
@@ -9,6 +9,7 @@ public class Task1 {
             return c;
         }
     }
+
 
     public static void main(String[] args) {
         System.out.println("Minimal number: " + min(5,2,3));
